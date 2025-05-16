@@ -9,7 +9,7 @@ export default () => {
     plugins: [zaloMiniApp(), react()],
     build: {
       assetsInlineLimit: 0,
+      outDir: "dist",
     },
-    outDir: "dist",
   });
 };
