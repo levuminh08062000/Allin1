@@ -10,5 +10,6 @@ export default () => {
     build: {
       assetsInlineLimit: 0,
     },
+    outDir: "dist",
   });
 };
